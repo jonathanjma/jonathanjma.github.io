@@ -4,8 +4,8 @@ title: projects
 permalink: /projects/
 description: A growing collection of your cool projects.
 nav: true
-nav_order: 3
-display_categories: [work, fun]
+nav_order: 2
+display_categories:
 horizontal: false
 ---
 
@@ -48,10 +48,12 @@ horizontal: false
     </div>
   </div>
   {%- else -%}
-  <div class="grid">
+  <div class="container">
+    <div class="row row-cols-2">
     {%- for project in sorted_projects -%}
       {% include projects.html %}
     {%- endfor %}
+    </div>
   </div>
   {%- endif -%}
 {%- endif -%}

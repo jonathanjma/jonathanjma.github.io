@@ -1,11 +1,11 @@
 ---
 layout: page
-title: project 1
-description: a project with a background image
-img: assets/img/12.jpg
-importance: 1
+title: Windows-iOS Clipboard
+description: another without an image
+img:
+importance: 3
 category: work
-related_publications: einstein1956investigations, einstein1950meaning
+github: https://github.com/jonathanjma/windows-ios-clipboard
 ---
 
 Every project has a beautiful feature showcase page.
