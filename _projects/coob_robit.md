@@ -1,10 +1,11 @@
 ---
 layout: page
-title: project 6
-description: a project with no image
-img:
-importance: 4
-category: fun
+title: Rubik's Cube Solving Robot
+description: a project
+img: assets/img/7.jpg
+importance: 3
+category: work
+github: https://github.com/anshgandhi4/rubiks-cube-solver-robot
 ---
 
 Every project has a beautiful feature showcase page.
