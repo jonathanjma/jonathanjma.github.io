@@ -1,10 +1,11 @@
 ---
 layout: page
-title: project 5
-description: a project with a background image
-img: assets/img/1.jpg
+title: Windows-iOS Clipboard
+description: another without an image
+img:
 importance: 3
-category: fun
+category: work
+github: https://github.com/jonathanjma/windows-ios-clipboard
 ---
 
 Every project has a beautiful feature showcase page.
