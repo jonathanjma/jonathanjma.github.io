@@ -1,10 +1,11 @@
 ---
 layout: page
-title: project 2
+title: Infinite Campus Grades++
 description: a project with a background image
-img: assets/img/3.jpg
-importance: 2
+img: assets/img/1.jpg
+importance: 3
 category: work
+github: https://github.com/jonathanjma/Infinite-Campus
 ---
 
 Every project has a beautiful feature showcase page.
