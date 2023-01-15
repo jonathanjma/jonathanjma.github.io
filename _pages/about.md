@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: 
+subtitle: "CS @Cornell (Anticipated Graduation: 2025)"
 
 profile:
   align: right

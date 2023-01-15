@@ -3,7 +3,7 @@ layout: page
 title: example project
 description: example project
 img: assets/img/12.jpg
-importance: 4
+importance: 10
 category: fun
 ---
 
