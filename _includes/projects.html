@@ -5,18 +5,21 @@
     <a href="{{ project.url | relative_url }}">
       {%- endif %}
       <div class="card hoverable">
+        {% assign classes="card-img-top" %}
+        {% if project.img_contain %}{% assign classes="card-img-top contain pt-3"%}{% endif %}
         {%- if project.img %}
         {%- include figure.html
           path=project.img
-          sizes = "250px"
+          class=classes
+          sizes="250px"
           alt="project thumbnail" -%}
         {%- endif %}
         <div class="card-body">
           <h2 class="card-title">{{ project.title }}</h2>
           <p class="card-text">{{ project.description }}</p>
-          <div class="row ml-1 mr-1 p-0">
+          <div class="row ml-1 mr-1 pt-2">
             {%- if project.github -%}
-            <div class="github-icon">
+            <div class="github-icon mr-2">
               <div class="icon" data-toggle="tooltip" title="Code Repository">
                 <a href="{{ project.github }}"><i class="fa-brands fa-github gh-icon"></i></a>
               </div>
@@ -26,6 +29,13 @@
                 <span id="{{ project.github_stars }}-stars"></span>
               </span>
               {%- endif %}
+            </div>
+            {%- endif %}
+            {%- if project.website -%}
+            <div class="github-icon">
+              <div class="icon" data-toggle="tooltip" title="Website">
+                <a href="{{ project.website }}"><i class="fas fa-globe"></i></a>
+              </div>
             </div>
             {%- endif %}
           </div>
