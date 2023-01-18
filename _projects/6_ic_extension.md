@@ -35,6 +35,9 @@ While I knew how useful my extension would be, I was extremely surprised by how 
 which is approximately 1 year after the extension was released, it has over 1k installs, making it my first widely used
 coding project!
 
+If you are a student in the FUSD school district and would like to download the extension, click
+[here](https://chrome.google.com/webstore/detail/infinite-campus-grades%20%20/kfanojpgbklafmhammpnbajkkdpehign).
+
 <div class="row">
     <div class="col-sm my-3 text-center">
         {% include figure.html path="assets/img/ic_stats.png" title="chrome store stats" class="img-fluid rounded z-depth-1" %}
@@ -43,9 +46,6 @@ coding project!
 <div class="caption">
     Chrome Web Store graph showing # of weekly users since the extension was published
 </div>
-
-If you are a student in the FUSD school district and would like to download the extension, click
-[here](https://chrome.google.com/webstore/detail/infinite-campus-grades%20%20/kfanojpgbklafmhammpnbajkkdpehign).
 
 ### Extension Screenshots
 <div class="row">
