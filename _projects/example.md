@@ -1,11 +1,11 @@
----
-layout: page
-title: example project
-description: example project
-img: assets/img/12.jpg
-importance: 10
-category: fun
----
+[//]: # (---)
+[//]: # (layout: page)
+[//]: # (title: example project)
+[//]: # (description: example project)
+[//]: # (img: assets/img/12.jpg)
+[//]: # (importance: 10)
+[//]: # (category: fun)
+[//]: # (---)
 
 Every project has a beautiful feature showcase page.
 It's easy to include images in a flexible 3-column grid format.
