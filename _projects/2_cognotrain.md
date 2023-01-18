@@ -12,7 +12,7 @@ website: https://cognotrain.com
 
 <div class="row">
     <div class="col-sm my-3 text-center">
-        {% include figure.html path="assets/img/cognotrain.png" title="cognotrain logo" height="15vw" %}
+        {% include figure.html path="assets/img/cognotrain.png" title="cognotrain logo" height="150vw" %}
     </div>
 </div>
 
