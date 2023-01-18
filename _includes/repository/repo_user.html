@@ -1,6 +1,10 @@
 <div class="repo p-2 text-center">
   <a href="https://github.com/{{ include.username }}">
-    <img class="repo-img-light" alt="{{ include.username }}" src="https://github-readme-stats.vercel.app/api/?username={{ include.username }}&theme={{ site.repo_theme_light }}&show_icons=true">
-    <img class="repo-img-dark" alt="{{ include.username }}" src="https://github-readme-stats.vercel.app/api/?username={{ include.username }}&theme={{ site.repo_theme_dark }}&show_icons=true">
+    <img class="repo-img-light" alt="{{ include.username }}" src="https://github-readme-stats.vercel.app/api?username={{ include.username }}&theme={{ site.repo_theme_light }}&show_icons=true&count_private=true&include_all_commits=true&card_width=450">
+    <img class="repo-img-dark" alt="{{ include.username }}" src="https://github-readme-stats.vercel.app/api?username={{ include.username }}&theme={{ site.repo_theme_dark }}&show_icons=true&count_private=true&include_all_commits=true&card_width=450">
+  </a>
+  <a href="https://github.com/{{ include.username }}">
+    <img class="repo-img-light" alt="{{ include.username }}" src="https://github-readme-stats.vercel.app/api/top-langs?username={{ include.username }}&theme={{ site.repo_theme_light }}&layout=compact&exclude_repo=jonathanjma.github.io">
+    <img class="repo-img-dark" alt="{{ include.username }}" src="https://github-readme-stats.vercel.app/api/top-langs?username={{ include.username }}&theme={{ site.repo_theme_dark }}&layout=compact&exclude_repo=jonathanjma.github.io">
   </a>
 </div>
