@@ -17,12 +17,12 @@ category: work
     </div>
 </div>
 <div class="caption">
-    Left: 2021-22 Season Robot, Right: 2020-2021 Season Robot    
+    Left: 2021-22 Season Robot, Right: 2020-2021 Season Robot @ MTI
 </div>
 
 From 2019-2022, I was a programmer on FIRST Tech Challenge (FTC) Team 7303. During my 3 years of FTC experience, I have learned
 various technical skills and helped my team earn multiple awards in competitions, such as winning the prestigious Maryland
-Tech Invitational in 2021 (out of the top 32 teams in the world), [Control Award](#control-award-and-world-record-videos) 
+Tech Invitational (MTI) in 2021 (out of the top 32 teams in the world), [Control Award](#control-award-and-world-record-videos) 
 2nd Place at the 2022 Northern California Regionals for the most innovative software, and placing within 
 the top 1% of the 6000 teams around the world.
 
