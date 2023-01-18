@@ -72,7 +72,7 @@ to with drivetrain motors in order to perform path following.
 In order to keep track of the robot's position as it moves on the field, I have experimented with deadwheel odometry 
 wheels and the T265 VSLAM camera.
 
-### Java + JavaFx
+### Java + JavaFX
 I used the JavaFX UI framework to create a custom robot simulator which allows my team to plan out robot paths
 virtually without the robot and replay robot movements and actions from a log file to troubleshoot issues and improve strategy.
 

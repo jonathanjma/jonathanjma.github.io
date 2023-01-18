@@ -18,11 +18,11 @@ As a final project for one of my classes, me and my friends built a Rubik's cube
 over 3 seconds.
 
 In order for the robot to solve the cube, it relies on 4 key components:
-1. A python program which runs an OpenCV program to detect the cube's state and generates a solution
+1. A Python program which runs an OpenCV program to detect the cube's state and generates a solution
 2. An Arduino program which converts the solution into motor movements and moves the motors
 3. The breadboard + stepper motor drivers which form the circuit needed to control the motors
 4. A 3D printed motor housing that hold all 5 motors and motor adapters that allow each stepper motor to turn a face of the cube
-Additionally, we also made a python script that could convert any image into a mosaic that could be recreated with 9 Rubik's cubes.
+Additionally, we also made a Python script that could convert any image into a mosaic that could be recreated with 9 Rubik's cubes.
 
 <div class="row">
     <div class="col-sm my-3 text-center">
