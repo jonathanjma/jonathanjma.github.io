@@ -24,7 +24,7 @@ I have worked on 2 projects during my time at SSDS: rewriting the CubeSat ground
 language to the Python Flask framework + React.js and a ground station to process and display data from the ChipSat computers
 attached to the light sail.
 
-In addition to software projects, I also worked in the cleanroom to help assemble the [flight version](#cubesat-picture) of the cubesat!
+In addition to software projects, I also worked in the cleanroom to help assemble the [flight version](#cubesat-pictures) of the cubesat!
 
 ### CubeSat Ground Station
 
@@ -60,9 +60,21 @@ Kibana was because to their close integration with each other as part of the Ela
     </div>
 </div>
 
-### CubeSat Picture
+### CubeSat Pictures
 <div class="row">
     <div class="col-sm my-3 text-center">
-        {% include figure.html path="assets/img/cubesat_complete.jpg" title="completed cubesat" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/cubesat_portrait.jpg" title="cubesat portrait" width="40%" class="img-fluid rounded z-depth-1" %}
     </div>
+</div>
+<div class="caption">
+    Portrait of me holding the completed CubeSat body at the end of my cleanroom shift (November 2022)
+</div>
+
+<div class="row">
+    <div class="col-sm my-3 text-center">
+        {% include figure.html path="assets/img/cubesat_complete.jpg" title="cubesat testing" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Completed CubeSat body undergoing solar panel testing
 </div>
