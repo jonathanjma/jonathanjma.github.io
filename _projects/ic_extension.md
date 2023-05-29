@@ -1,81 +1,67 @@
 ---
 layout: page
 title: Infinite Campus Grades++
-description: a project with a background image
-img: assets/img/1.jpg
-importance: 3
+description: Chrome extension that revamps high school grades website with a more intuitive UI, 
+    grade simulation, and other missing features
+img: assets/img/ic_extension.png
+img_contain: true
+importance: 4
 category: work
 github: https://github.com/jonathanjma/Infinite-Campus
+website: https://chrome.google.com/webstore/detail/infinite-campus-grades%20%20/kfanojpgbklafmhammpnbajkkdpehign
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+<div class="row">
+    <div class="col-sm my-3 text-center">
+        {% include figure.liquid path="assets/img/ic_extension.png" title="ic logo" height="150vw" %}
+    </div>
+</div>
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+For my senior year, my school district started using the Infinite Campus student information system to replace
+the Schoolloop platform which had been used for many years. However, my friends and students at my school
+quickly began complaining about the new system. They expressed frustration at the cumbersome UI which required 
+many more clicks to access assignment and overall grades. Another common source of annoyance was the lack of
+any existing Chrome extensions or apps which could allow students to simulate the effect of new assignments/tests
+on their grade.
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+With loads of free time on my hands during winter break and having developed a Chrome extension recently during the
+summer, I decided to give fixing this problem a try. Using Javascript, liquid, and a CSS theme library, I was able
+to create Infinite Campus Grades++. My extension offered a clean and simple UI with easy to access grade information,
+detailed grade simulation (adding/editing/deleting assignments, creating new categories/changing weights), 
+and even a few extra features like the ability to calculate the lowest score you needed to keep an A, 
+a grade history graph, and dark mode.
+
+While I knew how useful my extension would be, I was extremely surprised by how popular it ended up getting. As of this writing,
+which is approximately 1 year after the extension was released, it has over 1k installs, making it my first widely used
+coding project!
+
+If you are a student in the FUSD school district and would like to download the extension, click
+[here](https://chrome.google.com/webstore/detail/infinite-campus-grades%20%20/kfanojpgbklafmhammpnbajkkdpehign).
 
 <div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    <div class="col-sm my-3 text-center">
+        {% include figure.liquid path="assets/img/ic_stats.png" title="chrome store stats" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
+    Chrome Web Store graph showing # of weekly users since the extension was published
 </div>
+
+### Extension Screenshots
 <div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    <div class="col-sm my-3 text-center">
+        {% include figure.liquid path="assets/img/ic_class.png" title="class page" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    This image can also have a caption. It's like magic.
+    Class Page showing the grade breakdown, lowest score tool, and an expanded grading category
 </div>
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
-
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+<div class="row">
+    <div class="col-sm my-3 text-center">
+        {% include figure.liquid path="assets/img/ic_graph.png" title="grade graph" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
+    Grade History Graph  
 </div>
-
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
-
-{% endraw %}

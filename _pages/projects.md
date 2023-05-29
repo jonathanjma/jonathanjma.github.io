@@ -2,7 +2,7 @@
 layout: page
 title: projects
 permalink: /projects/
-description: Check out details about my projects/experience below!
+description: Check out details about my personal projects below!
 nav: true
 nav_order: 2
 display_categories:
