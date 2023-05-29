@@ -21,7 +21,7 @@ Hello there!
 I'm Jonathan Ma, a freshman at Cornell University majoring in CS. My interests include robotics and programming simulators, 
 apps, and other tools which can help improve people's daily lives.
 
-I am currently looking for an internship for the summer of 2023 in robotics or backend app development. 
+I am currently looking for an internship for the summer of 2024 in robotics or backend app development. 
 Check out my resume and detailed descriptions of my past projects by exploring the links in the header!
 
 In my free time, I enjoy photography and hiking. I also really like elephants. 

@@ -7,7 +7,7 @@ img: assets/img/alpha_cubesat.png
 importance: 1
 category: work
 github: https://github.com/Alpha-CubeSat/Alpha-Cubesat-Ground-Python
-website: https://www.spacecraftresearch.com/alpha-cubesat
+website: https://alphacubesat.cornell.edu
 ---
 
 <div class="row">

@@ -5,7 +5,7 @@ description: Universal clipboard that allows for easier copying and pasting acro
     (ex. windows-iOS, linux-iOS)
 img: assets/img/clipboard.png
 img_contain: true
-importance: 5
+importance: 3
 category: work
 github: https://github.com/jonathanjma/windows-ios-clipboard
 ---

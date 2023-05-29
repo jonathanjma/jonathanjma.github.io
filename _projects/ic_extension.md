@@ -5,7 +5,7 @@ description: Chrome extension that revamps high school grades website with a mor
     grade simulation, and other missing features
 img: assets/img/ic_extension.png
 img_contain: true
-importance: 6
+importance: 4
 category: work
 github: https://github.com/jonathanjma/Infinite-Campus
 website: https://chrome.google.com/webstore/detail/infinite-campus-grades%20%20/kfanojpgbklafmhammpnbajkkdpehign
