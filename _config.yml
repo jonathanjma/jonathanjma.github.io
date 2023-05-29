@@ -11,7 +11,7 @@ description: > # the ">" symbol means to ignore newlines until "footer_text:"
   Jonathan Ma's personal website.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
-  Hosted by <a href="https://github.com/jonathanjma/jonathanjma.github.io" target="_blank">GitHub Pages</a>.
+  Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
 keywords: jekyll, personal-website, portfolio-website  # add your own keywords or leave empty
 
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
@@ -34,7 +34,7 @@ highlight_theme_dark: native    # https://github.com/jwarby/jekyll-pygments-them
 repo_theme_light: default       # https://github.com/anuraghazra/github-readme-stats/blob/master/themes/README.md
 repo_theme_dark: dark           # https://github.com/anuraghazra/github-readme-stats/blob/master/themes/README.md
 repo_trophies:
-  enabled: true
+  enabled: false
   theme_light: flat    # https://github.com/ryo-ma/github-profile-trophy
   theme_dark: gitdimmed  # https://github.com/ryo-ma/github-profile-trophy
 
