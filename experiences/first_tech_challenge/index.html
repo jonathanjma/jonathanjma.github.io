@@ -17,24 +17,24 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Alpha CubeSat | Jonathan  Ma</title>
+    <title>FIRST Tech Challenge | Jonathan  Ma</title>
     <meta name="author" content="Jonathan  Ma">
-    <meta name="description" content="A 1U cubesat deploying from the ISS which aims to release an ultralight light sail as part of NASA's CubeSat Launch Initiative">
+    <meta name="description" content="Every year, I helped to program a robot that could complete various tasks both autonomously and under human control">
     <meta name="keywords" content="jekyll, personal-website, portfolio-website">
 
     <!-- OpenGraph -->
     <meta property="og:site_name" content="Jonathan  Ma">
     <meta property="og:type" content="website">
-    <meta property="og:title" content="Jonathan  Ma | Alpha CubeSat">
-    <meta property="og:url" content="https://jonathanjma.github.io/projects/1_alpha_cubesat/">
-    <meta property="og:description" content="A 1U cubesat deploying from the ISS which aims to release an ultralight light sail as part of NASA's CubeSat Launch Initiative">
+    <meta property="og:title" content="Jonathan  Ma | FIRST Tech Challenge">
+    <meta property="og:url" content="https://jonathanjma.github.io/experiences/first_tech_challenge/">
+    <meta property="og:description" content="Every year, I helped to program a robot that could complete various tasks both autonomously and under human control">
     <meta property="og:image" content="/assets/img/professional.jpg">
     <meta property="og:locale" content="en">
 
     <!-- Twitter card -->
     <meta name="twitter:card" content="summary">
-    <meta name="twitter:title" content="Alpha CubeSat">
-    <meta name="twitter:description" content="A 1U cubesat deploying from the ISS which aims to release an ultralight light sail as part of NASA's CubeSat Launch Initiative">
+    <meta name="twitter:title" content="FIRST Tech Challenge">
+    <meta name="twitter:description" content="Every year, I helped to program a robot that could complete various tasks both autonomously and under human control">
     <meta name="twitter:image" content="/assets/img/professional.jpg">
     
 
@@ -56,7 +56,7 @@
     <link rel="shortcut icon" href="data:image/svg+xml,&lt;svg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20100%20100%22&gt;&lt;text%20y=%22.9em%22%20font-size=%2290%22&gt;%F0%9F%90%98&lt;/text&gt;&lt;/svg&gt;">
     
     <link rel="stylesheet" href="/assets/css/main.css">
-    <link rel="canonical" href="https://jonathanjma.github.io/projects/1_alpha_cubesat/">
+    <link rel="canonical" href="https://jonathanjma.github.io/experiences/first_tech_challenge/">
     
     <!-- Dark Mode -->
     
@@ -103,6 +103,11 @@
               </li>
               <li class="nav-item ">
                 
+                  <a class="nav-link" href="/experiences/">experiences</a>
+                
+              </li>
+              <li class="nav-item ">
+                
                   <a class="nav-link" href="/repositories/">repositories</a>
                 
               </li>
@@ -144,120 +149,42 @@
         <div class="post">
 
           <header class="post-header">
-            <h1 class="post-title">Alpha CubeSat</h1>
-            <p class="post-description">A 1U cubesat deploying from the ISS which aims to release an ultralight light sail as part of NASA's CubeSat Launch Initiative</p>
+            <h1 class="post-title">FIRST Tech Challenge</h1>
+            <p class="post-description">Every year, I helped to program a robot that could complete various tasks both autonomously and under human control</p>
           </header>
 
           <article>
-            <div class="row">
-    <div class="col-sm my-3 text-center">
+            <div class="row my-3">
+    <div class="col-sm">
         <figure>
 
   <picture>
     
-    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/alpha_cubesat-480.webp"></source>
-    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/alpha_cubesat-800.webp"></source>
-    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/alpha_cubesat-1400.webp"></source>
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/ff_robit-480.webp"></source>
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/ff_robit-800.webp"></source>
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/ff_robit-1400.webp"></source>
     
 
     <!-- Fallback to the original file -->
-    <img src="/assets/img/alpha_cubesat.png" class="img-fluid rounded z-depth-1" width="auto" height="auto" title="alpha cubesat" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+    <img src="/assets/img/ff_robit.jpg" class="img-fluid rounded z-depth-1" width="auto" height="auto" title="ftc robot" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
 
   </picture>
 
 </figure>
 
     </div>
-</div>
-
-<p>In fall 2022, I joined the Space Systems Design Studio (SSDS) at Cornell, where I am working on the Alpha CubeSat project.
-As part of NASA’s CubeSat Launch Initiative, the Alpha CubeSat mission aims to launch a 1U cubesat from the 
-International Space Station and verify the performance of an ultralight light sail.</p>
-
-<p>I have worked on 2 projects during my time at SSDS: rewriting the CubeSat ground station from the Clojure functional programming
-language to the Python Flask framework + React.js and a ground station to process and display data from the ChipSat computers
-attached to the light sail.</p>
-
-<p>In addition to software projects, I also worked in the cleanroom to help assemble the <a href="#cubesat-pictures">flight version</a> of the cubesat!</p>
-
-<h3 id="cubesat-ground-station">CubeSat Ground Station</h3>
-
-<p>After joining the Alpha project, I learned that the CubeSat ground station had been implemented in the Clojure functional programming
-over the last few semesters. As a niche language, Clojure did have some minor benefits. However, it had major downsides — a high
-learning curve and being difficult to easily read and understand — severely reducing its maintainability. Therefore, the team lead and I 
-decided that it would be best to rewrite the ground station in Python.</p>
-
-<p>After a few weeks learning the ropes of Clojure, I started translating the ground station’s backend (which is responsible for processing 
-CubeSat telemetry and sending commands) one file at a time. Immediately, the benefits became clear as the Python translation was much more 
-concise and readable. An example is shown below, with Python on the left and Clojure on the right.</p>
-
-<div class="row">
-    <div class="col-sm my-3 text-center">
+    <div class="col-sm">
         <figure>
 
   <picture>
     
-    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/python_clojure-480.webp"></source>
-    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/python_clojure-800.webp"></source>
-    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/python_clojure-1400.webp"></source>
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/ug_robit-480.webp"></source>
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/ug_robit-800.webp"></source>
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/ug_robit-1400.webp"></source>
     
 
     <!-- Fallback to the original file -->
-    <img src="/assets/img/python_clojure.png" class="img-fluid rounded z-depth-1" width="auto" height="auto" title="cubesat ground" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
-
-  </picture>
-
-</figure>
-
-    </div>
-</div>
-
-<p>In spring 2023, I hope to wrap up the Python translation of the backend after thorough end-to-end testing and start the rewrite of 
-the frontend in React framework.</p>
-
-<h3 id="chipsat-ground-station">ChipSat Ground Station</h3>
-
-<p>The 2nd project I am working on is the ChipSat ground station. Previously, it was decided that the ChipSats would use LoRa radio 
-frequencies to downlink their data through TinyGS, a worldwide network of 1000+ LoRa ground stations. Therefore, the ChipSat ground
-station would receive the data packets from the TinyGS API, store them in an Elastisearch database, and display them in a Kibana 
-data dashboard like the one shown below (which was created using data from a test satellite). The reason I chose Elasticsearch and 
-Kibana was because to their close integration with each other as part of the Elastic Stack.</p>
-
-<div class="row">
-    <div class="col-sm my-3 text-center">
-        <figure>
-
-  <picture>
-    
-    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/chipsat_dashboard-480.webp"></source>
-    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/chipsat_dashboard-800.webp"></source>
-    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/chipsat_dashboard-1400.webp"></source>
-    
-
-    <!-- Fallback to the original file -->
-    <img src="/assets/img/chipsat_dashboard.png" class="img-fluid rounded z-depth-1" width="auto" height="auto" title="chipsat ground" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
-
-  </picture>
-
-</figure>
-
-    </div>
-</div>
-
-<h3 id="cubesat-pictures">CubeSat Pictures</h3>
-<div class="row">
-    <div class="col-sm my-3 text-center">
-        <figure>
-
-  <picture>
-    
-    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/cubesat_portrait-480.webp"></source>
-    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/cubesat_portrait-800.webp"></source>
-    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/cubesat_portrait-1400.webp"></source>
-    
-
-    <!-- Fallback to the original file -->
-    <img src="/assets/img/cubesat_portrait.jpg" class="img-fluid rounded z-depth-1" width="40%" height="auto" title="cubesat portrait" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+    <img src="/assets/img/ug_robit.jpg" class="img-fluid rounded z-depth-1" width="auto" height="auto" title="ftc robot" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
 
   </picture>
 
@@ -266,8 +193,30 @@ Kibana was because to their close integration with each other as part of the Ela
     </div>
 </div>
 <div class="caption">
-    Portrait of me holding the completed CubeSat body at the end of my cleanroom shift (November 2022)
+    Left: 2021-22 Season Robot, Right: 2020-2021 Season Robot @ MTI
 </div>
+
+<p>From 2019-2022, I was a programmer on FIRST Tech Challenge (FTC) Team 7303. During my 3 years of FTC experience, I have learned
+various technical skills and helped my team earn multiple awards in competitions, such as winning the prestigious Maryland
+Tech Invitational (MTI) in 2021 (out of the top 32 teams in the world), <a href="#control-award-and-world-record-videos">Control Award</a> 
+2nd Place at the 2022 Northern California Regionals for the most innovative software, and placing within 
+the top 1% of the 6000 teams around the world.</p>
+
+<p>Every year, the main objective of FTC was to work with my team to build and program a robot to complete in the year’s challenge, 
+which is made up of various tasks the robot needs to be able to preform both autonomously and under human control. Over the 
+course of ~3-6 months, a robot needed to be designed, built and assembled, programmed, documented, tested, and rapidly iterated upon
+as my team competed in tournaments.</p>
+
+<p>Through FTC, I have gained valuable experience with OpenCV, finite state machines, PIDF control loops, path following, 
+localization, Java, and JavaFX. I have also learned valuable experiences, such as valuing of simplicity instead of
+overcomplicated mechanisms, the dangers of over-automation, and the importance of testing and collaboration.</p>
+
+<h3 id="opencv">OpenCV</h3>
+<p>As FTC involves the robot to make decisions autonomously, using OpenCV for object-detection was crucial in order to 
+determine the position and type of game element on the competition field. Examples of problems I solved using OpenCV include
+determining the position of a patterned block surrounded by yellow blocks, the height of a stack of rings, 
+and the positions of rings on the field so that they can be autonomously collected. Through solving these problems, 
+I have learned about different color spaces (ex. HSV, YCrCb), color filtering, noise removal, contours, and regression.</p>
 
 <div class="row">
     <div class="col-sm my-3 text-center">
@@ -275,13 +224,13 @@ Kibana was because to their close integration with each other as part of the Ela
 
   <picture>
     
-    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/cubesat_complete-480.webp"></source>
-    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/cubesat_complete-800.webp"></source>
-    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/cubesat_complete-1400.webp"></source>
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/ug_rings-480.webp"></source>
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/ug_rings-800.webp"></source>
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/ug_rings-1400.webp"></source>
     
 
     <!-- Fallback to the original file -->
-    <img src="/assets/img/cubesat_complete.jpg" class="img-fluid rounded z-depth-1" width="auto" height="auto" title="cubesat testing" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+    <img src="/assets/img/ug_rings.png" class="img-fluid rounded z-depth-1" width="auto" height="auto" title="opencv ring detection" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
 
   </picture>
 
@@ -289,8 +238,65 @@ Kibana was because to their close integration with each other as part of the Ela
 
     </div>
 </div>
-<div class="caption">
-    Completed CubeSat body undergoing solar panel testing
+
+<h3 id="finite-state-machines">Finite State Machines</h3>
+<p>As robots built by my team are often very complicated, automation is required in order to prevent 
+controlling the robot from becoming too cumbersome. Therefore, finite state machines can be used to automate robot
+mechanisms by using data from the robot’s sensors, encoder and velocity readings, and its position on the field to
+perform complex routines. For example, I used this to automate the collection of a ring from the field, the aiming of a turret,
+and the launching of the ring to accurately to hit a target 12+ feet away (even while the robot is moving).</p>
+
+<div class="row">
+    <div class="col-sm my-3 text-center">
+        <video width="560" height="315" controls="">
+             <source src="/assets/img/move_shoot.mp4" type="video/mp4"></source>
+        </video>
+    </div>
+</div>
+
+<h3 id="pidf-control-loops">PIDF Control Loops</h3>
+<p>Crucial to robot automation are control loops, a tuned PIDF control loop allows mechanisms like a turret,
+arm, linear slides, and flywheel to reach their intended position/velocity. Additionally, I have also used this
+to with drivetrain motors in order to perform path following.</p>
+
+<h3 id="localization">Localization</h3>
+<p>In order to keep track of the robot’s position as it moves on the field, I have experimented with deadwheel odometry 
+wheels and the T265 VSLAM camera.</p>
+
+<h3 id="java--javafx">Java + JavaFX</h3>
+<p>I used the JavaFX UI framework to create a custom robot simulator which allows my team to plan out robot paths
+virtually without the robot and replay robot movements and actions from a log file to troubleshoot issues and improve strategy.</p>
+
+<div class="row">
+    <div class="col-sm my-3 text-center">
+        <figure>
+
+  <picture>
+    
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/ftcsim-480.webp"></source>
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/ftcsim-800.webp"></source>
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/ftcsim-1400.webp"></source>
+    
+
+    <!-- Fallback to the original file -->
+    <img src="/assets/img/ftcsim.png" class="img-fluid rounded z-depth-1" width="50%" height="auto" title="javafx simulator" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+
+  </picture>
+
+</figure>
+
+    </div>
+</div>
+
+<p>Using Java has allowed me gain experience in object-oriented programming, code organization practices, and documentation.</p>
+
+<h3 id="control-award-and-world-record-videos">Control Award and World Record Videos</h3>
+<div class="row">
+    <div class="col-sm my-3 text-center">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/xHTFfvVyhNE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen=""></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/QfE0kpx0uvQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen=""></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/dfh_dphHmTs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen=""></iframe>
+    </div>
 </div>
 
           </article>
