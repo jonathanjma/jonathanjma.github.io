@@ -3,7 +3,7 @@ layout: page
 title: Rubik's Cube Solving Robot
 description: Arduino powered robot optimized to solve a Rubik’s Cube faster than a human!
 img: assets/img/coob_robit.png
-importance: 3
+importance: 2
 category: work
 github: https://github.com/anshgandhi4/rubiks-cube-solver-robot
 ---

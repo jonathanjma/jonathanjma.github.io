@@ -168,6 +168,9 @@ collections:
       layout: post
     output: true
     permalink: /news/:path/
+  experiences:
+    output: true
+    permalink: /experiences/:path/
   projects:
     output: true
     permalink: /projects/:path/

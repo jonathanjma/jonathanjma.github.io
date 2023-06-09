@@ -4,7 +4,7 @@ title: FIRST Tech Challenge
 description: Every year, I helped to program a robot that could complete various tasks both autonomously 
     and under human control
 img: assets/img/ff_robit.jpg
-importance: 4
+importance: 3
 category: work
 ---
 
