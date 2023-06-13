@@ -33,9 +33,12 @@ Currently, Happiness App is available as a [beta web app](https://happinessapp.m
 release in late August. More app screenshots can be seen below.
 
 In terms of the tech stack, Happiness App is built using React for the frontend, Flask for the backend, and 
-SQLAlchemy + PostgreSQL for the database. Documentation for the RESTful API, which contains for information about
-the API endpoints, authentication requirements, and request/response schemas, can be found 
-[here](https://happiness-app-backend.herokuapp.com/).
+SQLAlchemy + PostgreSQL for the database. Additionally, throughout the development lifecycle, we used GitHub best practices,
+creating branches and pull requests for each feature as well as performing thorough code reviews in order to ensure code
+quality and catch potential bugs. 
+
+Documentation for the RESTful API, which contains for information about the API endpoints, authentication requirements, 
+and request/response schemas, can be found [here](https://happiness-app-backend.herokuapp.com/).
 
 ### More Screenshots
 <div class="row">
