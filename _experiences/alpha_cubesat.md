@@ -20,9 +20,12 @@ In fall 2022, I joined the Space Systems Design Studio (SSDS) at Cornell, where 
 As part of NASA's CubeSat Launch Initiative, the Alpha CubeSat mission aims to launch a 1U cubesat from the 
 International Space Station and verify the performance of an ultralight light sail.
 
-I have worked on 2 projects during my time at SSDS: rewriting the CubeSat ground station from the Clojure functional programming
-language to the Python Flask framework + React.js and a ground station to process and display data from the ChipSat computers
-attached to the light sail.
+As someone who had close to no knowledge about CubeSats prior to SSDS, I was drawn by the opportunity to try working in a field 
+that I had never tried before. Not to mention that working with space related things is just awesome!
+
+During my time at SSDS, I mainly worked on 2 projects: rewriting the CubeSat ground station software from the Clojure functional 
+programming language to the Python Flask framework + React and a ground station to process and display data from the ChipSat 
+computers attached to the light sail using Elasticsearch and Kibana.
 
 In addition to software projects, I also worked in the cleanroom to help assemble the [flight version](#cubesat-pictures) of the cubesat!
 
@@ -35,21 +38,29 @@ decided that it would be best to rewrite the ground station in Python.
 
 After a few weeks learning the ropes of Clojure, I started translating the ground station's backend (which is responsible for processing 
 CubeSat telemetry and sending commands) one file at a time. Immediately, the benefits became clear as the Python translation was much more 
-concise and readable. An example is shown below, with Python on the left and Clojure on the right.
+concise and readable. An example is shown below, with Python on the left and Clojure on the right. By the end of the translation, running
+a lines of code analysis showed between both versions showed that the new codebase was roughly 30% smaller!
 
 <div class="row">
     <div class="col-sm my-3 text-center">
-        {% include figure.html path="assets/img/python_clojure.png" title="cubesat ground" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/python_clojure.png" title="python vs. clojure code comparison" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
-In spring 2023, I hope to wrap up the Python translation of the backend after thorough end-to-end testing and start the rewrite of 
-the frontend in React framework.
+Following the completion of the backend code translation, I used the Flask framework to develop the RESTful API that would allow the
+control dashboard to communicate with the backend. After that, I used React to create a simple and intuitive control dashboard for
+building and sending commands as well as seeing downlinked images and previously sent commands.
+
+<div class="row">
+    <div class="col-sm my-3 text-center">
+        {% include figure.html path="assets/img/cubesat_dashboard.png" title="cubesat dashboard" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
 
 ### ChipSat Ground Station
 
 The 2nd project I am working on is the ChipSat ground station. Previously, it was decided that the ChipSats would use LoRa radio 
-frequencies to downlink their data through TinyGS, a worldwide network of 1000+ LoRa ground stations. Therefore, the ChipSat ground
+frequencies to downlink their data through [TinyGS](https://tinygs.com/), a worldwide network of 1000+ LoRa ground stations. Therefore, the ChipSat ground
 station would receive the data packets from the TinyGS API, store them in an Elastisearch database, and display them in a Kibana 
 data dashboard like the one shown below (which was created using data from a test satellite). The reason I chose Elasticsearch and 
 Kibana was because to their close integration with each other as part of the Elastic Stack.
