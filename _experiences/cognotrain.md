@@ -50,6 +50,6 @@ reading papers and conducting literature reviews on existing cognitive training 
 I also helped to create various research posters (linked below) to document our progress, which were presented at various
 expos and colloquias (each with 300+ people). Eventually, this led to the filing of a provisional patent in the spring of 2022.
 
-Posters: [Spring 2022]({{ "assets/pdf/cognotrain_spring22.pdf" | relative_url }}), 
-[Fall 2021]({{ "assets/pdf/cognotrain_fall21.pdf" | relative_url }}), 
-[Summer 2021]({{ "assets/pdf/cognotrain_summer21.pdf" | relative_url }})
+Posters: [Spring 2022]({{ "assets/pdf/cogno_spring22.pdf" | relative_url }}), 
+[Fall 2021]({{ "assets/pdf/cogno_fall21.pdf" | relative_url }}), 
+[Summer 2021]({{ "assets/pdf/cogno_summer21.pdf" | relative_url }})
