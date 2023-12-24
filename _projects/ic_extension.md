@@ -25,7 +25,7 @@ any existing Chrome extensions or apps which could allow students to simulate th
 on their grade.
 
 With loads of free time on my hands during winter break and having developed a Chrome extension recently during the
-summer, I decided to give fixing this problem a try. Using Javascript, liquid, and a CSS theme library, I was able
+summer, I decided to give fixing this problem a try. Using Javascript, HTML, and a CSS theme library, I was able
 to create Infinite Campus Grades++. My extension offered a clean and simple UI with easy to access grade information,
 detailed grade simulation (adding/editing/deleting assignments, creating new categories/changing weights), 
 and even a few extra features like the ability to calculate the lowest score you needed to keep an A, 
