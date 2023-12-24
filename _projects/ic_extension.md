@@ -13,7 +13,7 @@ website: https://chrome.google.com/webstore/detail/infinite-campus-grades%20%20/
 
 <div class="row">
     <div class="col-sm my-3 text-center">
-        {% include figure.html path="assets/img/ic_extension.png" title="ic logo" height="150vw" %}
+        {% include figure.html path="assets/img/ic_extension.png" title="ic logo" width="150vw" %}
     </div>
 </div>
 

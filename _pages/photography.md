@@ -7,5 +7,3 @@ nav: true
 nav_order: 5
 redirect: https://www.flickr.com/photos/196752228@N08/
 ---
-
-[//]: # (https://www.google.com/search?q=jekyll+flickr)

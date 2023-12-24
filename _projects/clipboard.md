@@ -12,7 +12,7 @@ github: https://github.com/jonathanjma/windows-ios-clipboard
 
 <div class="row">
     <div class="col-sm my-3 text-center">
-        {% include figure.html path="assets/img/clipboard.png" title="clipboard icon" height="150vw" %}
+        {% include figure.html path="assets/img/clipboard.png" title="clipboard icon" width="150vw" %}
     </div>
 </div>
 
