@@ -2,7 +2,7 @@
 [//]: # (layout: page)
 [//]: # (title: example project)
 [//]: # (description: example project)
-[//]: # (img: assets/img/12.jpg)
+[//]: # (img: assets/img/example/12.jpg)
 [//]: # (importance: 10)
 [//]: # (category: fun)
 [//]: # (---)
@@ -17,7 +17,7 @@ To give your project a background in the portfolio page, just add the img tag to
     layout: page
     title: project
     description: a project with a background image
-    img: /assets/img/12.jpg
+    img: /assets/img/example/12.jpg
     ---
 
 <div class="row">
