@@ -3,17 +3,17 @@ layout: page
 title: FIRST Tech Challenge
 description: Every year, I helped to program a robot that could complete various tasks both autonomously 
     and under human control
-img: assets/img/ff_robit.jpg
+img: assets/img/ftc/ff_robit.jpg
 importance: 3
 category: work
 ---
 
 <div class="row my-3">
     <div class="col-sm">
-        {% include figure.html path="assets/img/ff_robit.jpg" title="ftc robot" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/ftc/ff_robit.jpg" title="ftc robot" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm">
-        {% include figure.html path="assets/img/ug_robit.jpg" title="ftc robot" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/ftc/ug_robit.jpg" title="ftc robot" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -44,7 +44,7 @@ I have learned about different color spaces (ex. HSV, YCrCb), color filtering, n
 
 <div class="row">
     <div class="col-sm my-3 text-center">
-        {% include figure.html path="assets/img/ug_rings.png" title="opencv ring detection" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/ftc/ug_rings.png" title="opencv ring detection" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
@@ -58,7 +58,7 @@ and the launching of the ring to accurately to hit a target 12+ feet away (even 
 <div class="row">
     <div class="col-sm my-3 text-center">
         <video width="560" height="315" controls>
-             <source src="{{ "/assets/img/move_shoot.mp4" | relative_url }}" type="video/mp4">
+             <source src="{{ "/assets/img/ftc/move_shoot.mp4" | relative_url }}" type="video/mp4">
         </video>
     </div>
 </div>
@@ -78,7 +78,7 @@ virtually without the robot and replay robot movements and actions from a log fi
 
 <div class="row">
     <div class="col-sm my-3 text-center">
-        {% include figure.html path="assets/img/ftcsim.png" title="javafx simulator" width="50%" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/ftc/ftcsim.png" title="javafx simulator" width="50%" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 

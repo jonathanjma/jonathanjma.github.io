@@ -3,7 +3,7 @@ layout: page
 title: Infinite Campus Grades++
 description: Chrome extension that revamps high school grades website with a more intuitive UI, 
     grade simulation, and other missing features
-img: assets/img/ic_extension.png
+img: assets/img/ic/ic_extension.png
 img_contain: true
 importance: 4
 category: work
@@ -13,7 +13,7 @@ website: https://chrome.google.com/webstore/detail/infinite-campus-grades%20%20/
 
 <div class="row">
     <div class="col-sm my-3 text-center">
-        {% include figure.html path="assets/img/ic_extension.png" title="ic logo" width="150vw" %}
+        {% include figure.html path="assets/img/ic/ic_extension.png" title="ic logo" width="150vw" %}
     </div>
 </div>
 
@@ -32,15 +32,15 @@ and even a few extra features like the ability to calculate the lowest score you
 a grade history graph, and dark mode.
 
 While I knew how useful my extension would be, I was extremely surprised by how popular it ended up getting. As of this writing,
-which is approximately 1 year after the extension was released, it has over 1k installs, making it my first widely used
-coding project!
+which is approximately 2.5 years after the extension was released, it is nearing 4K installs (keep in mind that my high school has ~2K students), 
+making it my first widely used coding project!
 
 If you are a student in the FUSD school district and would like to download the extension, click
 [here](https://chrome.google.com/webstore/detail/infinite-campus-grades%20%20/kfanojpgbklafmhammpnbajkkdpehign).
 
 <div class="row">
     <div class="col-sm my-3 text-center">
-        {% include figure.html path="assets/img/ic_stats.png" title="chrome store stats" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/ic/ic_stats.png" title="chrome store stats" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -50,7 +50,7 @@ If you are a student in the FUSD school district and would like to download the 
 ### Extension Screenshots
 <div class="row">
     <div class="col-sm my-3 text-center">
-        {% include figure.html path="assets/img/ic_class.png" title="class page" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/ic/ic_class.png" title="class page" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -59,7 +59,7 @@ If you are a student in the FUSD school district and would like to download the 
 
 <div class="row">
     <div class="col-sm my-3 text-center">
-        {% include figure.html path="assets/img/ic_graph.png" title="grade graph" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/ic/ic_graph.png" title="grade graph" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">

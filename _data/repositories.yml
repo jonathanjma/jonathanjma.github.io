@@ -2,10 +2,9 @@ github_users:
   - jonathanjma
 
 github_repos:
-#  - alshedivat/al-folio
-#  - twbs/bootstrap
-#  - jekyll/jekyll
-#  - jquery/jquery
-#  - FortAwesome/Font-Awesome
-#  - jpswalsh/academicons
-#  - mathjax/MathJax
+  - jonathanjma/HappinessApp
+  - Alpha-CubeSat/oop-chipsat-code
+  - Alpha-CubeSat/Alpha-Cubesat-Ground-Python
+  - jonathanjma/windows-ios-clipboard
+  - jonathanjma/Infinite-Campus
+  - anshgandhi4/rubiks-cube-solver-robot

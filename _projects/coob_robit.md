@@ -2,7 +2,7 @@
 layout: page
 title: Rubik's Cube Solving Robot
 description: Arduino powered robot optimized to solve a Rubik’s Cube faster than a human!
-img: assets/img/coob_robit.png
+img: assets/img/cube_robot/coob_robit.png
 importance: 2
 category: work
 github: https://github.com/anshgandhi4/rubiks-cube-solver-robot
@@ -10,7 +10,7 @@ github: https://github.com/anshgandhi4/rubiks-cube-solver-robot
 
 <div class="row">
     <div class="col-sm my-3 text-center">
-        {% include figure.html path="assets/img/coob_robit.png" title="coob robit project" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/cube_robot/coob_robit.png" title="coob robit project" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
@@ -26,7 +26,7 @@ Additionally, we also made a Python script that could convert any image into a m
 
 <div class="row">
     <div class="col-sm my-3 text-center">
-        {% include figure.html path="assets/img/cube_vision.png" title="cube opencv" width="75%" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/cube_robot/cube_vision.png" title="cube opencv" width="75%" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
@@ -42,7 +42,7 @@ performed after the optimizations.
 
 <div class="row">
     <div class="col-sm my-3 text-center">
-        {% include figure.html path="assets/img/cube_solve.gif" title="cube solve" width="75%" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/cube_robot/cube_solve.gif" title="cube solve" width="75%" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
