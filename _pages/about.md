@@ -6,7 +6,7 @@ subtitle: "CS @Cornell (Anticipated Graduation: December 2025)"
 
 profile:
   align: right
-  image: professional.jpg
+  image: profile.jpg
   image_circular: false # crops the image to make it circular
   more_info: 
 
