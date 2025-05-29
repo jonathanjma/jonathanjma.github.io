@@ -6,14 +6,16 @@ description: Every year, I helped to program a robot that could complete various
 img: assets/img/ftc/ff_robit.jpg
 importance: 3
 category: work
+github: https://github.com/roboavatars/UltimateGoal
+website: https://www.youtube.com/roboavatars7303
 ---
 
 <div class="row my-3">
     <div class="col-sm">
-        {% include figure.html path="assets/img/ftc/ff_robit.jpg" title="ftc robot" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/ftc/ff_robit.jpg" title="ftc robot" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm">
-        {% include figure.html path="assets/img/ftc/ug_robit.jpg" title="ftc robot" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/ftc/ug_robit.jpg" title="ftc robot" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -44,7 +46,7 @@ I have learned about different color spaces (ex. HSV, YCrCb), color filtering, n
 
 <div class="row">
     <div class="col-sm my-3 text-center">
-        {% include figure.html path="assets/img/ftc/ug_rings.png" title="opencv ring detection" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/ftc/ug_rings.png" title="opencv ring detection" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
@@ -78,7 +80,7 @@ virtually without the robot and replay robot movements and actions from a log fi
 
 <div class="row">
     <div class="col-sm my-3 text-center">
-        {% include figure.html path="assets/img/ftc/ftcsim.png" title="javafx simulator" width="50%" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/ftc/ftcsim.png" title="javafx simulator" width="50%" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 

@@ -13,7 +13,7 @@ website: https://happinessapp.me
 
 <div class="row">
     <div class="col-sm my-3 text-center">
-        {% include figure.html path="assets/img/happiness/entries.png" title="happiness app entry creation" class="img-fluid rounded z-depth-1" width="80%" %}
+        {% include figure.liquid path="assets/img/happiness/entries.png" title="happiness app entry creation" class="img-fluid rounded z-depth-1" width="80%" %}
     </div>
 </div>
 <div class="caption mt-0">
@@ -64,7 +64,7 @@ Thinking about questions like this is what I love about working on fun side proj
 
 <div class="row">
     <div class="col-sm my-3 text-center">
-        {% include figure.html path="assets/img/happiness/design.png" title="Happiness App design evolution" width="80%" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/happiness/design.png" title="Happiness App design evolution" width="80%" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -74,7 +74,7 @@ Thinking about questions like this is what I love about working on fun side proj
 ### More Screenshots
 <div class="row">
     <div class="col-sm my-3 text-center">
-        {% include figure.html path="assets/img/happiness/statistics.png" title="Happiness App statistics page" width="80%" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/happiness/statistics.png" title="Happiness App statistics page" width="80%" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -83,7 +83,7 @@ Thinking about questions like this is what I love about working on fun side proj
 
 <div class="row">
     <div class="col-sm my-3 text-center">
-        {% include figure.html path="assets/img/happiness/profile.png" title="Happiness App profile page" width="80%" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/happiness/profile.png" title="Happiness App profile page" width="80%" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -92,7 +92,7 @@ Thinking about questions like this is what I love about working on fun side proj
 
 <div class="row">
     <div class="col-sm my-3 text-center">
-        {% include figure.html path="assets/img/happiness/groups_feed.png" title="Happiness App group feed" width="80%" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/happiness/groups_feed.png" title="Happiness App group feed" width="80%" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -101,7 +101,7 @@ Thinking about questions like this is what I love about working on fun side proj
 
 <div class="row">
     <div class="col-sm my-3 text-center">
-        {% include figure.html path="assets/img/happiness/groups_table.png" title="Happiness App group table" width="80%" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/happiness/groups_table.png" title="Happiness App group table" width="80%" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">

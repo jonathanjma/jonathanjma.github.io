@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Software Engineering Intern @ CognoTrain
+title: SWE Intern @ CognoTrain
 description: CognoTrain is a startup developing a personalized cognitive training app for 
     Alzheimer's patients to help improve their memory and quality of life
 img: assets/img/cognotrain.png
@@ -12,7 +12,7 @@ website: https://cognotrain.com
 
 <div class="row">
     <div class="col-sm my-3 text-center">
-        {% include figure.html path="assets/img/cognotrain.png" title="cognotrain logo" width="150vw" %}
+        {% include figure.liquid path="assets/img/cognotrain.png" title="cognotrain logo" width="150vw" %}
     </div>
 </div>
 

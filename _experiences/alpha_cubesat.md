@@ -12,7 +12,7 @@ website: https://alphacubesat.cornell.edu
 
 <div class="row">
     <div class="col-sm my-3 text-center">
-        {% include figure.html path="assets/img/cubesat/alpha_cubesat.png" title="alpha cubesat" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/cubesat/alpha_cubesat.png" title="alpha cubesat" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
@@ -32,7 +32,7 @@ In addition to software projects, I also worked in the cleanroom to help assembl
 
 <div class="row">
     <div class="col-sm my-3 text-center">
-        {% include figure.html path="assets/img/cubesat/chipsat.png" title="chipsat" width="75%" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/cubesat/chipsat.png" title="chipsat" width="75%" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -61,7 +61,7 @@ For more technical details about my work, you can view my [semester report]({{ "
 
 <div class="row">
     <div class="col-sm my-3 text-center">
-        {% include figure.html path="assets/img/cubesat/cubesat_exploded.png" title="cubesat" width="75%" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/cubesat/cubesat_exploded.png" title="cubesat" width="75%" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -78,7 +78,7 @@ which was a surprisingly effective way of understanding what the code did.
 
 <div class="row">
     <div class="col-sm my-3 text-center">
-        {% include figure.html path="assets/img/cubesat/cubesat_dashboard.png" title="cubesat dashboard" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/cubesat/cubesat_dashboard.png" title="cubesat dashboard" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -109,7 +109,7 @@ Green arrows show the path of telemetry data, red arrows show the path of comman
 
 <div class="row">
     <div class="col-sm my-3 text-center">
-        {% include figure.html path="assets/img/cubesat/gs_arch.png" title="cubesat dashboard" width="67%" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/cubesat/gs_arch.png" title="cubesat dashboard" width="67%" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -118,7 +118,7 @@ Green arrows show the path of telemetry data, red arrows show the path of comman
 
 <div class="row">
     <div class="col-sm my-3 text-center">
-        {% include figure.html path="assets/img/cubesat/kibana_dashboard.png" title="cubesat dashboard" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/cubesat/kibana_dashboard.png" title="cubesat dashboard" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -128,7 +128,7 @@ Green arrows show the path of telemetry data, red arrows show the path of comman
 ### CubeSat Pictures
 <div class="row">
     <div class="col-sm my-3 text-center">
-        {% include figure.html path="assets/img/cubesat/cubesat_portrait.jpg" title="cubesat portrait" width="40%" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/cubesat/cubesat_portrait.jpg" title="cubesat portrait" width="40%" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -137,7 +137,7 @@ Green arrows show the path of telemetry data, red arrows show the path of comman
 
 <div class="row">
     <div class="col-sm my-3 text-center">
-        {% include figure.html path="assets/img/cubesat/cubesat_complete.jpg" title="cubesat testing" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/cubesat/cubesat_complete.jpg" title="cubesat testing" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
