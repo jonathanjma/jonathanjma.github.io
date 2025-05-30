@@ -10,7 +10,16 @@
 ##
 require 'flickr'
 require 'shellwords'
-require_relative 'flickr-secrets'
+
+# conditional import since api_key not needed for production
+if File.exist?(File.join(__dir__, 'flickr-secrets.rb'))
+  require_relative 'flickr-secrets'
+else
+  module FlickrSecrets
+    API_KEY = ""
+    API_SECRET = ""
+  end
+end
 
 module Jekyll
 
