@@ -555,6 +555,10 @@ third_party_libraries:
     url:
       js: "https://cdn.jsdelivr.net/npm/photoswipe@{{version}}/dist/photoswipe-lightbox.esm.min.js"
     version: "5.4.4"
+  photoswipe-video-plugin:
+    url:
+      js: "https://cdn.jsdelivr.net/npm/photoswipe-video-plugin@{{version}}/dist/photoswipe-video-plugin.esm.min.js"
+    version: "1.0.2"
   plotly:
     integrity:
       js: "sha256-oy6Be7Eh6eiQFs5M7oXuPxxm9qbJXEtTpfSI93dW16Q="
@@ -650,3 +654,11 @@ jsonresume:
   - languages
   - interests
   - references
+
+flickr:
+  screen_name: jonathanjma
+  size_full:   Large
+  size_thumb:  Small
+  size_video:  720p
+  use_cache:   true
+  cache_dir:   "_flickr"
