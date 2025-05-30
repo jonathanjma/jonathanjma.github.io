@@ -32,10 +32,10 @@ ninja.data = [{
           },
         },{id: "nav-photography",
           title: "photography",
-          description: "",
+          description: "Some of my favorite photos I have taken over the years!",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/_pages/photography/";
+            window.location.href = "/photography/";
           },
         },{id: "nav-resume",
           title: "resume",
